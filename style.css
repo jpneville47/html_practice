@@ -91,3 +91,92 @@ img.avatar{
 .link-item svg {
     margin-right: 6px;
 }
+
+/***********************************
+* =Education
+***********************************/
+.education{
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.education:last-child {
+    border-bottom: none;
+}
+
+.education-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.education-institution {
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.education-title {
+    font-style: italic;
+}
+
+/***********************************
+* =Experience
+***********************************/
+
+.job {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .job:last-child {
+    border-bottom: none;
+  }
+  
+  .job-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .job-company {
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .job-title {
+      font-style: italic;
+  }
+
+/***********************************
+* =Projects
+***********************************/
+
+.projects {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .projects:last-child {
+    border-bottom: none;
+  }
+  
+  .projects-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .project-institution {
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .project-title{
+      font-style: italic;
+  }
